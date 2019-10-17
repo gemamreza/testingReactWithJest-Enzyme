@@ -19,11 +19,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "husky" : {
-    "hooks": {
-      "pre-push": "CI=true npm test"
-    }
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
